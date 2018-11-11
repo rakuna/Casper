@@ -67,7 +67,7 @@ into the {body} of the default.hbs template --}}
 
 		<script type="text/javascript">
 		  DiscourseEmbed = { discourseUrl: 'http://talk.libreengineer.com/',
-				     discourseEmbedUrl: 'https//libreengineer.com/' };
+				     discourseEmbedUrl: '{{url absolute="true"}}' };
 
 		  (function() {
 		    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
